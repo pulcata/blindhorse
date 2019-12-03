@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FastChoiseButton">
+        <attr name="centerDrawable" format="reference"/>
+        <attr name="firstOption" format="string"/>
+        <attr name="secondOption" format="string"/>
+    </declare-styleable>
+</resources>
