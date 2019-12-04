@@ -1,4 +1,4 @@
-package io.chipotie.fastchoisebutton
+package io.pulque.fastchoicebutton
 
 import org.junit.Test
 

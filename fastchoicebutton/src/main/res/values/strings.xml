@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">FastChoiseButton</string>
+    <string name="app_name">FastChoiceButton</string>
     <string name="default_instruction">SWIPE</string>
 </resources>

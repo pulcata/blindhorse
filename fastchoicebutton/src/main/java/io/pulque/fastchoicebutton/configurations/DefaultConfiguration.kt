@@ -1,6 +1,6 @@
-package io.chipotie.fastchoisebutton.configurations
+package io.pulque.fastchoisebutton.configurations
 
-import io.chipotie.fastchoisebutton.R
+import io.pulque.fastchoisebutton.R
 
 /*
  * @author savirdev on 2019-12-02

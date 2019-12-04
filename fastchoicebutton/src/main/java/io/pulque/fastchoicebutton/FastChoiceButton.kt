@@ -1,4 +1,4 @@
-package io.chipotie.fastchoisebutton
+package io.pulque.fastchoicebutton
 
 import android.animation.*
 import android.content.Context
@@ -16,15 +16,15 @@ import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import io.chipotie.fastchoisebutton.configurations.ChoiceConfiguration
-import io.chipotie.fastchoisebutton.configurations.ConfigurationManager
+import io.pulque.fastchoicebutton.configurations.ChoiceConfiguration
+import io.pulque.fastchoicebutton.configurations.ConfigurationManager
 
 
 /*
  * @author savirdev on 2019-12-02
  */
 
-class FastChoiseButton @JvmOverloads constructor(
+class FastChoiceButton @JvmOverloads constructor(
     context: Context,
     attributeSet: AttributeSet? = null,
     defStyleInt: Int = 0,
@@ -95,10 +95,10 @@ class FastChoiseButton @JvmOverloads constructor(
 
         background.addView(optionsContainer, layoutParams)
 
-        val typedArray = context.obtainStyledAttributes(attributeSet, R.styleable.FastChoiseButton)
-        centerDrawable = typedArray.getDrawable(R.styleable.FastChoiseButton_centerDrawable)
-        firstOption.text = typedArray.getString(R.styleable.FastChoiseButton_firstOption)
-        secondOption.text = typedArray.getString(R.styleable.FastChoiseButton_secondOption)
+        val typedArray = context.obtainStyledAttributes(attributeSet, R.styleable.FastChoiceButton)
+        centerDrawable = typedArray.getDrawable(R.styleable.FastChoiceButton_centerDrawable)
+        firstOption.text = typedArray.getString(R.styleable.FastChoiceButton_firstOption)
+        secondOption.text = typedArray.getString(R.styleable.FastChoiceButton_secondOption)
         typedArray.recycle()
 
         val swipeButton = ImageView(context)

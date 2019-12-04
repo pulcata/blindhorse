@@ -1,4 +1,4 @@
-package io.chipotie.blindfold
+package io.pulque.blindfold
 
 import org.junit.Test
 

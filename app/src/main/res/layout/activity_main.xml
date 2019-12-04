@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="io.pulque.blindhorse.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <io.chipotie.fastchoisebutton.FastChoiseButton
+    <io.pulque.fastchoicebutton.FastChoiceButton
         android:id="@+id/colorSelector"
         android:layout_width="0dp"
         android:layout_height="50dp"

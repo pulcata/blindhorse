@@ -1,10 +1,11 @@
-package io.chipotie.blindfold
+package io.pulque.blindhorse
 
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import androidx.appcompat.app.AppCompatActivity
-import io.chipotie.blindfold.choices.CorrectOptionConfig
-import io.chipotie.blindfold.choices.WrongOptionConfig
+import io.pulque.blindfold.R
+import io.pulque.blindhorse.choices.CorrectOptionConfig
+import io.pulque.blindhorse.choices.WrongOptionConfig
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
@@ -17,8 +18,10 @@ class MainActivity : AppCompatActivity() {
 
     private var tts: TextToSpeech? = null
 
-    private val correctOptionConfig = CorrectOptionConfig()
-    private val wrongOptionConfig = WrongOptionConfig()
+    private val correctOptionConfig =
+        CorrectOptionConfig()
+    private val wrongOptionConfig =
+        WrongOptionConfig()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,11 +29,11 @@ class MainActivity : AppCompatActivity() {
 
         initVoiceEngine()
 
-        setupFastChoise()
+        setupFastChoice()
 
     }
 
-    private fun setupFastChoise(){
+    private fun setupFastChoice(){
         colorSelector.apply {
             setOnLeftSwipeCompleteListener{
                 lastPair?.let {

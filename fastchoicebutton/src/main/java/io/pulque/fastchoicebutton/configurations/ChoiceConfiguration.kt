@@ -1,4 +1,4 @@
-package io.chipotie.fastchoisebutton.configurations
+package io.pulque.fastchoisebutton.configurations
 
 /*
  * @author savirdev on 2019-12-02
