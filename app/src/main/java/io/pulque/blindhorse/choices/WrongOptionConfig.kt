@@ -1,6 +1,6 @@
 package io.pulque.blindhorse.choices
 
-import io.pulque.blindfold.R
+import io.pulque.blindhorse.R
 import io.pulque.fastchoicebutton.configurations.ChoiceConfiguration
 
 /*

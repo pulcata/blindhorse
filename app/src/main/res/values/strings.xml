@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Blindfold</string>
+    <string name="app_name">Blindhorse</string>
     <string name="square_placeholder">%s%d</string>
     <string name="view_solution">View Solution</string>
     <string name="generate">Generate</string>

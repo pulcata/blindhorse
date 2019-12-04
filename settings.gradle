@@ -1,2 +1,2 @@
 include ':app', ':fastchoicebutton'
-rootProject.name='Blindfold'
+rootProject.name='Blindhorse'

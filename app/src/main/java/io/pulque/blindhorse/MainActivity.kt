@@ -3,7 +3,6 @@ package io.pulque.blindhorse
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import androidx.appcompat.app.AppCompatActivity
-import io.pulque.blindfold.R
 import io.pulque.blindhorse.choices.CorrectOptionConfig
 import io.pulque.blindhorse.choices.WrongOptionConfig
 import kotlinx.android.synthetic.main.activity_main.*
