@@ -3,4 +3,5 @@
     <string name="square_placeholder">%s%d</string>
     <string name="view_solution">View Solution</string>
     <string name="generate">Generate</string>
+    <string name="guess_the_color_title">Cual es el color de la casilla...</string>
 </resources>

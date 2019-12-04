@@ -11,7 +11,7 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    private val columns = arrayOf("A", "B","C","D","E","F","G","H")
+    private val columns = arrayOf("a", "b","c","d","e","f","g","h")
 
     private var lastPair : Pair<Int, Int>? = null
 
@@ -93,5 +93,5 @@ class MainActivity : AppCompatActivity() {
         return (isColumnPair && isRowPair) || (!isColumnPair && !isRowPair)
     }
 
-    private fun generateRandom() = (1 until 8).random()
+    private fun generateRandom() = (1 until 9).random()
 }
