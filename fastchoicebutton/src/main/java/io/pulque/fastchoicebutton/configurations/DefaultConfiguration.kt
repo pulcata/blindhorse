@@ -1,6 +1,6 @@
-package io.pulque.fastchoisebutton.configurations
+package io.pulque.fastchoicebutton.configurations
 
-import io.pulque.fastchoisebutton.R
+import io.pulque.fastchoicebutton.R
 
 /*
  * @author savirdev on 2019-12-02

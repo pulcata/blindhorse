@@ -1,7 +1,7 @@
-package io.chipotie.blindfold.choices
+package io.pulque.blindhorse.choices
 
-import io.chipotie.blindfold.R
-import io.chipotie.fastchoisebutton.configurations.ChoiceConfiguration
+import io.pulque.blindfold.R
+import io.pulque.fastchoicebutton.configurations.ChoiceConfiguration
 
 /*
  * @author savirdev on 2019-12-02

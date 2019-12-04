@@ -1,4 +1,4 @@
-package io.pulque.fastchoisebutton.configurations
+package io.pulque.fastchoicebutton.configurations
 
 /*
  * @author savirdev on 2019-12-02
