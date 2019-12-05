@@ -1,2 +1,2 @@
-include ':app', ':fastchoicebutton'
+include ':app', ':fastchoicebutton', ':chessito'
 rootProject.name='Blindhorse'
